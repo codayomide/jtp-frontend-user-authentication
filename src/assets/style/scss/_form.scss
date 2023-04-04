@@ -1,0 +1,88 @@
+.form-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    border-radius: 5px;
+    padding: 2rem 1.2rem;
+
+    input, 
+    label,
+    button {
+        font-size: 18px;
+    }
+
+    input,
+    button {
+        border-radius: 3px;
+        padding: 0.7rem 1rem;
+    }
+
+    input {
+        width: 100%;
+        margin-top: 5px;
+        border: solid 1px $grayish-blue;
+        outline: none;
+
+        &:focus {
+            border: solid 2px $blue;
+        }
+    }
+
+    button {
+        background-color: $green;
+        color: $white;
+        text-transform: uppercase; 
+        font-weight: 500;      
+        
+        width: 100%;
+        margin-top: 2rem;
+        border: none;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        color: $red;
+        margin-top: 1rem;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+
+        &__fifty--wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        &__fifty {
+            display: flex;
+            flex-direction: column;
+
+            &:first-child {
+                margin-right: 5px;
+            }
+
+            &:last-child {
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .link {
+        a {
+            color: $blue;
+            font-weight: 600;
+        }
+    }
+}

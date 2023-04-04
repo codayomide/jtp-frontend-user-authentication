@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 0.5rem;
+}
+.nav .logo {
+  font-size: 30px;
+  font-weight: 800;
+}
+.nav .navbar-links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.nav .navbar__link {
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 1rem;
+}
+
+.form-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+}
+
+.form {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  padding: 2rem 1.2rem;
+}
+.form input,
+.form label,
+.form button {
+  font-size: 18px;
+}
+.form input,
+.form button {
+  border-radius: 3px;
+  padding: 0.7rem 1rem;
+}
+.form input {
+  width: 100%;
+  margin-top: 5px;
+  border: solid 1px hsl(246, 25%, 77%);
+  outline: none;
+}
+.form input:focus {
+  border: solid 2px hsl(248, 32%, 49%);
+}
+.form button {
+  background-color: hsl(154, 59%, 51%);
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 2rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+.form p {
+  color: hsl(0, 100%, 74%);
+  margin-top: 1rem;
+}
+.form .input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1rem;
+}
+.form .input-container__fifty--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form .input-container__fifty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.form .input-container__fifty:first-child {
+  margin-right: 5px;
+}
+.form .input-container__fifty:last-child {
+  margin-left: 5px;
+}
+.form .link a {
+  color: hsl(248, 32%, 49%);
+  font-weight: 600;
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+}
+
+.app {
+  background-image: url("../../images/bg-intro-desktop.png");
+  height: 100vh;
+  width: 100%;
+}
+
+#landing-page {
+  color: hsl(249, 10%, 26%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 60vh;
+  width: 100%;
+  padding: 1rem;
+}
+#landing-page h1 {
+  margin-bottom: 1rem;
+}
+#landing-page p {
+  margin-bottom: 1.5rem;
+}
+#landing-page button {
+  padding: 1rem 0.5rem;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
